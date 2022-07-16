@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Light-gray);
+    font-family: 'Outfit';
+    font-size: 15px;
+}
+:root{
+/*Colors*/
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    width: 320px;
+    height: 500px;
+    background-color: var(--White);
+    border-radius: 15px;
+}
+
+.code{
+    width: 290px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: var(--Dark-blue);
+}
+
+p{
+    text-align: center;
+    color: var(--Grayish-blue);
+    margin-left: 20px;
+    margin-right: 20px;
+}
